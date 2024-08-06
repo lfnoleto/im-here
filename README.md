@@ -34,6 +34,8 @@ npm run start
 
 # Acesse o projeto no emulador desejado
 
+```
+
 ## 📝 Licença
 
 Este projeto está licenciado sob a [Licença MIT](LICENSE). Para mais informações, consulte o arquivo `LICENSE` no repositório.
