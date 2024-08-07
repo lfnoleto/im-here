@@ -1,7 +1,7 @@
 import { StatusBar } from 'expo-status-bar';
 import {  Text, View,TextInput, TouchableOpacity } from 'react-native';
 import { styles } from './styles';
-
+import { Participant } from '../../components/Participant';
 
 export default function Home() {
     function handleParticipantAdd() {
@@ -18,6 +18,10 @@ export default function Home() {
             <Text style={styles.buttonText}>+</Text>
         </TouchableOpacity>
       </View>
+      <Participant name="Lucas"/>
+      <Participant name ="Noleto"/>
+      <Participant name="ferreira"/>
+      <Participant name="milhonario"/>
     </View>
   );
 }
