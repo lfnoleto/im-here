@@ -52,5 +52,10 @@ export  const styles = StyleSheet.create({
       marginBottom: 42,
 
     },
+    emptyText: {
+      color: '#6b6b6b',
+      fontSize: 16,
+      marginTop: 24,
+    }
   });
   
